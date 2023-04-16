@@ -573,7 +573,7 @@ textarea {
 
 
 
-  @media (max-width: 600px) {
+  @media (max-width: 900px) {
     nav {
         padding: 0.25rem 0.5rem;
       }
