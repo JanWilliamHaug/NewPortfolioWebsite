@@ -542,8 +542,19 @@ textarea {
     }
   }
 
-  /* For iPhone screens */
-@media (max-width: 375px) {
+
+  /* For smaller screens */
+@media (max-width: 480px) {
+    nav {
+      overflow-x: auto;
+      white-space: nowrap;
+      padding-bottom: 5px;
+    }
+  
+    nav ul {
+      display: inline-flex;
+    }
+  
     nav ul li {
       padding: 8px 15px;
     }
@@ -555,7 +566,7 @@ textarea {
   
     .logo {
       font-size: 24px;
+      flex: none;
     }
   }
-  
   
