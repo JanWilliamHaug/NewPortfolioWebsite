@@ -68,6 +68,7 @@ nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
+    flex-wrap: wrap; 
 }
 
 nav ul li a {
@@ -80,6 +81,7 @@ nav ul li a {
     background-color: rgba(0, 0, 0, 0.8); /* Match the background color of the navigation bar */
     border-radius: 5px; /* Add border-radius to create rounded corners */
     transition: all 0.4s ease-in-out; /* Change the transition duration */
+    flex-wrap: wrap; 
 }
 
 nav ul li a:hover {
@@ -87,6 +89,7 @@ nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.6); /* Slightly decrease the background color opacity on hover */
     transition: all 0.4s ease-in-out; /* Change the transition duration */
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    flex-wrap: wrap; 
 }
 
 
@@ -522,70 +525,19 @@ textarea {
     color: #fff;
 }
 
-/* Add the following lines for responsive design */
-@media only screen and (max-width: 768px) {
-    .nav {
-        flex-direction: column;
-        gap: 0;
+/* For screens up to 600px wide */
+@media (max-width: 600px) {
+    .logo {
+      font-size: 24px;
     }
-
-    .nav ul li {
-        padding: 10px 0;
+  
+    nav ul li {
+      font-size: 14px;
     }
-
-    .hero {
-        height: 100vh;
-        width: 100%;
-        background-attachment: scroll; /* Change the background attachment to scroll */
+  
+    .btn-linkedin {
+      font-size: 14px;
+      padding: 5px 10px;
     }
-
-    .content {
-        left: 2%; /* Adjust the left value */
-    }
-
-    h1 {
-        font-size: 50px; /* Decrease the font size */
-    }
-
-    h3 {
-        font-size: 18px; /* Decrease the font size */
-    }
-
-    .newslatter form {
-        width: 90%; /* Increase the width */
-    }
-
-    .newslatter form input:first-child {
-        padding: 14px 50px 14px 15px; /* Adjust the padding */
-    }
-
-    .newslatter form input:last-child {
-        right: 15px; /* Adjust the right value */
-    }
-
-    .main {
-        flex-direction: column; /* Change the flex direction to column */
-        align-items: flex-start; /* Align items to the left */
-    }
-
-    .about img {
-        width: 100%; /* Set the width to 100% */
-    }
-
-    .about-text {
-        width: 100%; /* Set the width to 100% */
-    }
-
-    .box {
-        flex-direction: column; /* Change the flex direction to column */
-    }
-
-    .skills-container {
-        flex-direction: column; /* Change the flex direction to column */
-        align-items: center; /* Align items to the center */
-    }
-
-    .contact-form {
-        width: 90%; /* Increase the width */
-    }
-}
+  }
+  
