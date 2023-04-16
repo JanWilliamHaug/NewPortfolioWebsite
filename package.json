@@ -1,0 +1,14 @@
+{
+  "name": "jan-portfolio-website",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "test script"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.9.1"
+  }
+}
