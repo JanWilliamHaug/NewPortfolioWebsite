@@ -27,7 +27,7 @@ html {
 nav {
     display: flex;
     gap: 3rem;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -35,7 +35,8 @@ nav {
     z-index: 1000;
     padding: 0.5rem 1rem;
     flex-wrap: wrap; /* Wrap the navigation items to the next line */
-}
+  }
+  
 
 a {
     flex: 1;
@@ -567,6 +568,12 @@ textarea {
     .logo {
       font-size: 24px;
       flex: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    nav ul li {
+      padding: 5px 10px;
     }
   }
   
