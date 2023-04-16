@@ -34,6 +34,7 @@ nav {
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 1000;
     padding: 0.5rem 1rem;
+    flex-wrap: wrap; /* Wrap the navigation items to the next line */
 }
 
 a {
@@ -68,7 +69,7 @@ nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
-    flex-wrap: wrap; 
+    
 }
 
 nav ul li a {
@@ -81,7 +82,7 @@ nav ul li a {
     background-color: rgba(0, 0, 0, 0.8); /* Match the background color of the navigation bar */
     border-radius: 5px; /* Add border-radius to create rounded corners */
     transition: all 0.4s ease-in-out; /* Change the transition duration */
-    flex-wrap: wrap; 
+    
 }
 
 nav ul li a:hover {
@@ -89,7 +90,7 @@ nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.6); /* Slightly decrease the background color opacity on hover */
     transition: all 0.4s ease-in-out; /* Change the transition duration */
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
-    flex-wrap: wrap; 
+    
 }
 
 
