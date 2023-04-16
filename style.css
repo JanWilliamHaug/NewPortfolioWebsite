@@ -67,17 +67,18 @@ nav ul li a {
     text-transform: capitalize;
     padding: 12px 20px;
     font-size: 18px;
-    background-color: rgba(249, 0, 77, 0.2); /* Reduce the background color opacity */
+    background-color: rgba(0, 0, 0, 0.8); /* Match the background color of the navigation bar */
     border-radius: 5px; /* Add border-radius to create rounded corners */
     transition: all 0.4s ease-in-out; /* Change the transition duration */
 }
 
 nav ul li a:hover {
     color: #ffffff;
-    background-color: rgba(249, 0, 77, 0.4); /* Increase the background color opacity on hover */
+    background-color: rgba(0, 0, 0, 0.6); /* Slightly decrease the background color opacity on hover */
     transition: all 0.4s ease-in-out; /* Change the transition duration */
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
 }
+
 
 
 .btn-linkedin {
