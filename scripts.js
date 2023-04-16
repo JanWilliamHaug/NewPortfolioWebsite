@@ -75,3 +75,16 @@ function isInViewport(element) {
         }
     });
 });
+
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var hamburger = document.querySelector('.hamburger');
+    var navItems = document.querySelector('nav ul');
+
+    hamburger.addEventListener('click', function () {
+      navItems.style.display = navItems.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+
+
+

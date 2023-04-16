@@ -27,7 +27,7 @@ html {
 nav {
     display: flex;
     gap: 3rem;
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -35,8 +35,7 @@ nav {
     z-index: 1000;
     padding: 0.5rem 1rem;
     flex-wrap: wrap; /* Wrap the navigation items to the next line */
-  }
-  
+}
 
 a {
     flex: 1;
@@ -570,10 +569,30 @@ textarea {
       flex: none;
     }
   }
+
+  .hamburger {
+    display: none;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+  }
   
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+  
+    nav ul {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
     nav ul li {
       padding: 5px 10px;
     }
   }
+  
   
