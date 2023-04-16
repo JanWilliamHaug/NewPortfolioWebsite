@@ -36,3 +36,42 @@ function showCards() {
         }
     });
 }
+
+
+// Function to check if an element is in viewport
+function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+  
+  // Select all project cards
+  const projectCards = document.querySelectorAll('.card');
+  
+  // Add event listener to window on scroll
+  window.addEventListener('scroll', () => {
+    // Loop through all project cards and check if they are in viewport
+    projectCards.forEach((card) => {
+      if (isInViewport(card)) {
+        // If in viewport, add animation class
+        card.classList.add('animate__animated', 'animate__zoomIn');
+      } else {
+        // If not in viewport, remove animation class
+        card.classList.remove('animate__animated', 'animate__zoomIn');
+      }
+    });
+  });
+
+  $(window).scroll(function() {
+    $('.card').each(function() {
+        var position = $(this).offset().top;
+        var scrollPosition = $(window).scrollTop() + $(window).height();
+        if (position < scrollPosition) {
+            $(this).addClass('animate__zoomIn');
+        }
+    });
+});
