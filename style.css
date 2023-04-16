@@ -60,17 +60,25 @@ nav ul li{
     padding: 10px 25px;
 }
 
-nav ul li a{
+nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: rgba(249, 0, 77, 0.4); /* Add a background color with a lower opacity */
+    border-radius: 5px; /* Add border-radius to create rounded corners */
+    transition: all 0.4s ease-in-out; /* Change the transition duration */
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #f9004d;
-    transition: 4s;
+    background-color: #ffffff;
+    transition: all 0.4s ease-in-out; /* Change the transition duration */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); /* Add a box shadow to create a 3D effect */
 }
+
 .btn-linkedin {
     background: #f9004d;
     border-radius: 0;
