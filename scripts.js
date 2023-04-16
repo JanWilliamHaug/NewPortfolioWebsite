@@ -16,3 +16,23 @@ function parallax() {
         loop: true,
     });
 });
+
+// Get all the project cards
+const cards = document.querySelectorAll('.card');
+
+// Add a scroll event listener to the window
+window.addEventListener('scroll', showCards);
+
+function showCards() {
+    // Loop through each card and check if it's in the viewport
+    cards.forEach(card => {
+        const rect = card.getBoundingClientRect();
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const isVisible = rect.top + scrollTop >= window.innerHeight - rect.height / 2;
+
+        // If the card is in the viewport, add the "show" class
+        if (isVisible) {
+            card.classList.add('show');
+        }
+    });
+}
