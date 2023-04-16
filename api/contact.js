@@ -7,14 +7,14 @@ module.exports = async (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-      user: 'wrysimusic98@gmail.com',
-      pass: 'kaka8ronaldo9',
+      user: 'haug002@cougars.csusm.edu',
+      pass: 'kaka8ronaldo99999',
     },
   });
 
   const mailOptions = {
     from: email,
-    to: 'wrysimusic98@gmail.com',
+    to: 'haug002@cougars.csusm.edu',
     subject: `New message from ${name}`,
     text: message,
   };
