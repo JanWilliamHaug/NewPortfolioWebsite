@@ -35,7 +35,8 @@ nav {
     z-index: 1000;
     padding: 0.5rem 1rem;
     flex-wrap: wrap; /* Wrap the navigation items to the next line */
-    justify-content: space-between; /* Add this line */
+    justify-content: space-between;
+    align-items: center;
 }
 
 a {
@@ -60,6 +61,7 @@ a:focus {
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
+    margin-right: auto;
 }
 
 span{
