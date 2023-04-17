@@ -528,7 +528,7 @@ textarea {
 }
 
 /* For screens up to 600px wide */
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     .logo {
       font-size: 24px;
     }
@@ -542,7 +542,7 @@ textarea {
       padding: 5px 10px;
     }
     .certificate h3 {
-        text-align: center !important;
+        margin-left: -10px /* Adjust this value to move the header more to the left */ !important;
       }
      
   }
