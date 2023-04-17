@@ -541,6 +541,10 @@ textarea {
       font-size: 14px;
       padding: 5px 10px;
     }
+    .certificate h3 {
+        text-align: center;
+      }
+     
   }
 
   /* Add this code to your style.css file */
