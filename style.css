@@ -598,3 +598,7 @@ textarea {
     text-decoration: underline;
   }
   
+  .certificate p.view-certificate {
+    margin-top: 20px; /* Add space above the paragraph containing the button */
+  }
+  
