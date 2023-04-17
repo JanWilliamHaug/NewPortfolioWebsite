@@ -542,7 +542,7 @@ textarea {
       padding: 5px 10px;
     }
     .certificate h3 {
-        text-align: center;
+        text-align: center !important;
       }
      
   }
