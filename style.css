@@ -542,7 +542,7 @@ textarea {
       padding: 5px 10px;
     }
     .certificate h3 {
-        margin-left: -10px /* Adjust this value to move the header more to the left */ !important;
+        margin-left: -20px /* Adjust this value to move the header more to the left */ !important;
       }
      
   }
