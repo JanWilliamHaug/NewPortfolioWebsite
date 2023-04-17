@@ -34,7 +34,7 @@ nav {
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 1000;
     padding: 0.5rem 1rem;
-    flex-wrap: wrap; /* Wrap the navigation items to the next line */
+    flex-wrap: wrap; /* Wrap the navigation items to the next line if there is not enough space */
     justify-content: space-between;
     align-items: center;
 }
@@ -71,7 +71,7 @@ span{
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    padding: 10px 25px;
+    padding: 10px 10px;
     
 }
 
@@ -116,6 +116,24 @@ nav ul li a:hover {
 .btn:hover{
     transform: scale(1.2s);
 }
+
+.btn-github {
+    background: #f9004d;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0E76A8;
+  }
+  .btn-github:link, .btn-github:visited {
+    color: #fff;
+  }
+  .btn-github:active, .btn-github:hover {
+    background: #000000;
+    color: #fff;
+  }
+
+
 .content{
     position: absolute;
     top: 50%;
