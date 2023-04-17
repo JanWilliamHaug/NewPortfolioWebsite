@@ -527,7 +527,7 @@ textarea {
     color: #fff;
 }
 
-/* For screens up to 600px wide */
+/* For screens up to 767px wide */
 @media (max-width: 767px) {
     .logo {
       font-size: 24px;
@@ -542,7 +542,7 @@ textarea {
       padding: 5px 10px;
     }
     .certificate h3 {
-        margin-left: -20px /* Adjust this value to move the header more to the left */ !important;
+        text-align: left; /* Align the header text to the left */
       }
      
   }
