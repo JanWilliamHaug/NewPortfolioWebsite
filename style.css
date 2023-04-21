@@ -568,9 +568,18 @@ textarea {
           flex-wrap: wrap;
         }
         
-        .card {
+    .card {
           width: 45%;
           margin: 15px 2.5%;
+        }
+    
+    .about,
+    .projects,
+    .licenses-certifications {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
         }
       
      
