@@ -791,8 +791,12 @@ footer p:nth-child(2){
         font-size: 34px;
     
     }
+    .card h5{
+      font-size: 40px;
+
+  }
     .pra p{
-        font-size: 26px;
+        font-size: 30px;
         padding-bottom: 20px;
 
     }
