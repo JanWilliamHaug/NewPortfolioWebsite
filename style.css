@@ -737,9 +737,9 @@ footer p:nth-child(2){
           }
           
       .card {
-            width: 45%;
+            width: 90%;
             margin: 15px 2.5%;
-            min-height: 600px;
+            
           }
       
       .about,
