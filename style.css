@@ -811,4 +811,12 @@ footer p:nth-child(2){
     body {
         overflow-x: hidden;
       }
+
+    .download-resume-btn {
+        padding: 8px 15px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        transition: background-color 0.3s;
+      }
 }
