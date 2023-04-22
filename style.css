@@ -633,6 +633,7 @@ textarea {
   .certificate h3 {
     font-size: 22px;
     margin-bottom: 10px;
+    text-align: center;
   }
   
   .certificate p {
@@ -725,6 +726,11 @@ footer p:nth-child(2){
     }
     p, ul, ol {
         font-size: 26px; 
+      }
+
+    .hero {
+        height: 60vh; /* Adjust this value according to your preferred height */
+        background-size: 150%; /* Adjust this value to zoom out the background image */
       }
     
 }
