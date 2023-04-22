@@ -708,9 +708,49 @@ footer p:nth-child(2){
     color: #ffffff;
   }
   
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 
   /* Mobile phones section*/
   @media screen and (max-width: 1000px) {
+
+    .logo {
+        font-size: 24px;
+      }
+    
+      nav ul li {
+        font-size: 14px;
+      }
+    
+      .btn-linkedin {
+        font-size: 14px;
+        padding: 5px 10px;
+      }
+      .certificate h3 {
+          text-align: left; /* Align the header text to the left */
+        }
+      .box {
+            flex-wrap: wrap;
+            min-height: 500px; 
+          }
+          
+      .card {
+            width: 45%;
+            margin: 15px 2.5%;
+          }
+      
+      .about,
+      .projects,
+      .licenses-certifications {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          }
+        
+       
     .main {
         flex-direction: column;
         padding: 0 20px;
@@ -756,5 +796,4 @@ footer p:nth-child(2){
     body {
         overflow-x: hidden;
       }
-
 }
