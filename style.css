@@ -734,7 +734,7 @@ footer p:nth-child(2){
       }
     
       .btn-linkedin, .btn-github {
-        width: 125px; 
+        width: 110px; 
         height: 40px; 
         display: flex;
         align-items: center;
@@ -744,10 +744,13 @@ footer p:nth-child(2){
         font-size: 24px;
       }
       .about-text p{
-        font-size: 24px;
+        font-size: 26px;
     } 
-    .hero h4{
-        font-size: 26;
+    .content h4{
+        font-size: 34px;
     
+    }
+    pra p{
+        font-size: 26px;
     }
 }
