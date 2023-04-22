@@ -739,7 +739,7 @@ footer p:nth-child(2){
       .card {
             width: 45%;
             margin: 15px 2.5%;
-            min-height: 550px; /* Increase this value to make the boxes taller on mobile devices */
+            min-height: 570px; /* Increase this value to make the boxes taller on mobile devices */
           }
       
       .about,
