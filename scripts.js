@@ -78,3 +78,20 @@ function isInViewport(element) {
 
 
 
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const projectCards = document.querySelectorAll(".project-card");
+
+  projectCards.forEach((card) => {
+    card.addEventListener("mouseover", function() {
+      const techStack = card.querySelector(".tech-stack");
+      techStack.style.display = "block";
+    });
+
+    card.addEventListener("mouseout", function() {
+      const techStack = card.querySelector(".tech-stack");
+      techStack.style.display = "none";
+    });
+  });
+});
