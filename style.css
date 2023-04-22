@@ -572,7 +572,9 @@ textarea {
     }
     .certificate h3 {
         text-align: center; 
+        margin: 0 auto;
       }
+
     .box {
           flex-wrap: wrap;
         }
@@ -739,7 +741,7 @@ footer p:nth-child(2){
       .card {
             width: 45%;
             margin: 15px 2.5%;
-            min-height: 570px; /* Increase this value to make the boxes taller on mobile devices */
+            min-height: 540px; /* Increase this value to make the boxes taller on mobile devices */
           }
       
       .about,
@@ -796,7 +798,7 @@ footer p:nth-child(2){
 
   }
   .pra {
-    min-height: 150px; /* Adjust this value based on your content */
+    min-height: 150px; 
     padding-bottom: 20px;
   }
   
