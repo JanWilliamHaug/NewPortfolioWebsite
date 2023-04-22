@@ -735,13 +735,14 @@ footer p:nth-child(2){
         }
       .box {
             flex-wrap: wrap;
+            min-height: 540px;
          
           }
           
       .card {
             width: 45%;
             margin: 15px 2.5%;
-            min-height: 540px; /* Increase this value to make the boxes taller on mobile devices */
+            min-height: 540px; 
           }
       
       .about,
