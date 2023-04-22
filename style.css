@@ -571,7 +571,7 @@ textarea {
       padding: 5px 10px;
     }
     .certificate h3 {
-        text-align: left; /* Align the header text to the left */
+        text-align: center; 
       }
     .box {
           flex-wrap: wrap;
@@ -796,7 +796,7 @@ footer p:nth-child(2){
 
   }
   .pra {
-    min-height: 120px; /* Adjust this value based on your content */
+    min-height: 150px; /* Adjust this value based on your content */
     padding-bottom: 20px;
   }
   
