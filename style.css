@@ -725,11 +725,11 @@ footer p:nth-child(2){
     }
     .about img{
         height: auto;
-        width: 200px;
+        width: 250px;
     
     }
     p, ul, ol {
-        font-size: 18px; /* Adjust this value according to your preferred size */
+        font-size: 24px; /* Adjust this value according to your preferred size */
       }
     
 }
