@@ -729,18 +729,25 @@ footer p:nth-child(2){
       }
 
     .hero {
-        height: 60vh; /* Adjust this value according to your preferred height */
-        background-size: 150%; /* Adjust this value to zoom out the background image */
+        height: 60vh; 
+        background-size: 150%; 
       }
     
       .btn-linkedin, .btn-github {
-        width: 150px; /* Adjust this value for your preferred button width */
-        height: 50px; /* Adjust this value for your preferred button height */
+        width: 125px; 
+        height: 40px; 
         display: flex;
         align-items: center;
         justify-content: center;
       }
       .btn-linkedin, .btn-github {
-        font-size: 20px; /* Adjust this value for your preferred font size on mobile devices */
+        font-size: 24px;
       }
+      .about-text p{
+        font-size: 24px;
+    } 
+    .hero h4{
+        font-size: 26;
+    
+    }
 }
