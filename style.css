@@ -707,7 +707,7 @@ footer p:nth-child(2){
     text-decoration: none;
     color: #ffffff;
   }
-  
+
   html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -733,12 +733,13 @@ footer p:nth-child(2){
         }
       .box {
             flex-wrap: wrap;
-            min-height: 500px; 
+         
           }
           
       .card {
             width: 45%;
             margin: 15px 2.5%;
+            min-height: 500px;
           }
       
       .about,
