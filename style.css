@@ -751,6 +751,10 @@ footer p:nth-child(2){
     
     }
     pra p{
-        font-size: 26px;
+        font-size: 28px;
     }
+    body {
+        overflow-x: hidden;
+      }
+
 }
