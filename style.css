@@ -715,21 +715,16 @@ footer p:nth-child(2){
         padding: 0 20px;
     }
 
-    .about img {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
     .about-text {
         width: 100%;
     }
     .about img{
         height: auto;
-        width: 250px;
+        width: 260px;
     
     }
     p, ul, ol {
-        font-size: 24px; /* Adjust this value according to your preferred size */
+        font-size: 26px; 
       }
     
 }
