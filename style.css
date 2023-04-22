@@ -750,8 +750,8 @@ footer p:nth-child(2){
         font-size: 34px;
     
     }
-    pra p{
-        font-size: 28px;
+    .pra p{
+        font-size: 26px;
     }
     body {
         overflow-x: hidden;
