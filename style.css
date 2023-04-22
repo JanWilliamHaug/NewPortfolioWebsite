@@ -304,6 +304,7 @@ a.button {
     align-items: center;
     min-height: 400px;  
 }
+
 .card{
     height: 420px;
     width: 310px;
@@ -318,6 +319,13 @@ a.button {
     flex-direction: column;
     justify-content: space-between;
 }
+.card h5{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
 
 .card i{
     font-size: 50px;
@@ -325,6 +333,7 @@ a.button {
     text-align: center;
     margin: 25px 0px;
     color: #f9004d;
+    height: 80px; 
 
 }
 h5{
@@ -337,8 +346,10 @@ h5{
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
+    height: 81px; 
 
 }
+
 .card .button{
     background-color: #f9004d;
     color: white;
@@ -348,6 +359,10 @@ h5{
     padding: 9px 22px;
     border-radius: 30px;
     transition: .4s;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .card .button:hover{
     background-color: transparent;
