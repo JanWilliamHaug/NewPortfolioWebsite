@@ -737,7 +737,7 @@ footer p:nth-child(2){
           }
           
       .card {
-            width: 90%;
+            width: 45%;
             margin: 15px 2.5%;
             
           }
@@ -795,6 +795,11 @@ footer p:nth-child(2){
       font-size: 40px;
 
   }
+  .pra {
+    min-height: 120px; /* Adjust this value based on your content */
+    padding-bottom: 20px;
+  }
+  
     .pra p{
         font-size: 30px;
         padding-bottom: 20px;
