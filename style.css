@@ -34,7 +34,7 @@ nav {
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 1000;
     padding: 0.5rem 1rem;
-    flex-wrap: wrap; /* Wrap the navigation items to the next line if there is not enough space */
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -82,17 +82,17 @@ nav ul li a {
     text-transform: capitalize;
     padding: 8px 7px;
     font-size: 18px;
-    background-color: rgba(0, 0, 0, 0.8); /* Match the background color of the navigation bar */
-    border-radius: 5px; /* Add border-radius to create rounded corners */
-    transition: all 0.4s ease-in-out; /* Change the transition duration */
+    background-color: rgba(0, 0, 0, 0.8); 
+    border-radius: 5px; 
+    transition: all 0.4s ease-in-out; 
     
 }
 
 nav ul li a:hover {
     color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.6); /* Slightly decrease the background color opacity on hover */
-    transition: all 0.4s ease-in-out; /* Change the transition duration */
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    background-color: rgba(0, 0, 0, 0.6); 
+    transition: all 0.4s ease-in-out; 
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); 
     
 }
 
@@ -101,6 +101,8 @@ nav ul li a:hover {
 .btn-linkedin {
     background: #f9004d;
     border-radius: 0;
+    width: 90px;
+    height: 35px;
     color: #fff;
     border-width: 1px;
     border-style: solid;
@@ -120,6 +122,8 @@ nav ul li a:hover {
 .btn-github {
     background: #f9004d;
     border-radius: 0;
+    width: 90px;
+    height: 35px;
     color: #fff;
     border-width: 1px;
     border-style: solid;
@@ -816,7 +820,5 @@ footer p:nth-child(2){
         padding: 8px 15px;
         border-radius: 5px;
         font-size: 20px;
-        font-weight: bold;
-        transition: background-color 0.3s;
       }
 }
