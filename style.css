@@ -727,9 +727,9 @@ footer p:nth-child(2){
       }
     
       nav ul li a{
-        font-size: 12px;
-        padding: 6px 5px;
-        gap: 2rem;
+        font-size: 14px;
+        padding: 7px 6px;
+        gap: 1rem;
       }
     
       .btn-linkedin {
