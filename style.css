@@ -777,8 +777,9 @@ footer p:nth-child(2){
       }
 
     .hero {
-        height: 60vh; 
+        height: 100vh;
         background-size: 150%; 
+        
       }
     
       .btn-linkedin, .btn-github {
