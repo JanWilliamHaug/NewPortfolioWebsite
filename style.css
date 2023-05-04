@@ -726,8 +726,10 @@ footer p:nth-child(2){
         font-size: 24px;
       }
     
-      nav ul li {
+      nav ul li a{
         font-size: 10px;
+        padding: 5px 4px;
+        gap: 2rem;
       }
     
       .btn-linkedin {
@@ -774,6 +776,7 @@ footer p:nth-child(2){
     }
     p, ul, ol {
         font-size: 26px; 
+        
       }
 
     .hero {
