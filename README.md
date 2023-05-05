@@ -5,7 +5,7 @@
 My Portfolio Website showcases my work, skills, and projects as an Aspiring Software Engineer.
 
 
-## :computer: Technologies Used
+## :computer:  Technologies Used
 
 - HTML
 - CSS
