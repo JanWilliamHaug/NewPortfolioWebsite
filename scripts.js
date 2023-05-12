@@ -10,7 +10,7 @@ function parallax() {
   
   document.addEventListener("DOMContentLoaded", function () {
     var typed = new Typed("#typed", {
-        strings: ["Software Engineer", "Web Developer", "Programmer", "Front-end developer", "Mobile app developer", "Front End Engineer", "Software developer"],
+        strings: ["Software Engineer", "Web Developer", "Programmer", "Front-end developer", "Mobile app developer", "Front End Engineer","Full stack engineer", "Software developer"],
         typeSpeed: 50,
         backSpeed: 50,
         loop: true,
